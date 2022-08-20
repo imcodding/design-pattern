@@ -1,6 +1,7 @@
 package com.design.demo;
 
 import com.design.abstractFactory.AbstractFactoryDesign;
+import com.design.composite.CompositeDesign;
 import com.design.decorator.DecoratorDesign;
 import com.design.factory.FactoryDesign;
 import com.design.mediator.MediatorDesign;
@@ -16,6 +17,8 @@ public class DemoApplication {
 //		new TemplateDesign();
 //		new DecoratorDesign();
 //		new FactoryDesign();
-		new AbstractFactoryDesign();
+//		new AbstractFactoryDesign();
+//		new MediatorDesign();
+		new CompositeDesign();
 	}
 }
