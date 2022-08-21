@@ -6,6 +6,7 @@ import com.design.decorator.DecoratorDesign;
 import com.design.factory.FactoryDesign;
 import com.design.mediator.MediatorDesign;
 import com.design.template.TemplateDesign;
+import com.design.template_apply.TemplateDesignApply;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,6 +20,9 @@ public class DemoApplication {
 //		new FactoryDesign();
 //		new AbstractFactoryDesign();
 //		new MediatorDesign();
-		new CompositeDesign();
+//		new CompositeDesign();
+
+		/* 다른 예시로 테스트 */
+		new TemplateDesignApply();
 	}
 }
