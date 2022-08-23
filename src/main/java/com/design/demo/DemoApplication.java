@@ -3,6 +3,7 @@ package com.design.demo;
 import com.design.abstractFactory.AbstractFactoryDesign;
 import com.design.composite.CompositeDesign;
 import com.design.decorator.DecoratorDesign;
+import com.design.decorator_apply.DecoratorDesignApply;
 import com.design.factory.FactoryDesign;
 import com.design.mediator.MediatorDesign;
 import com.design.template.TemplateDesign;
@@ -23,6 +24,7 @@ public class DemoApplication {
 //		new CompositeDesign();
 
 		/* 다른 예시로 테스트 */
-		new TemplateDesignApply();
+//		new TemplateDesignApply();
+		new DecoratorDesignApply();
 	}
 }
