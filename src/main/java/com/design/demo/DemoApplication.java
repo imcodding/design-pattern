@@ -5,6 +5,7 @@ import com.design.composite.CompositeDesign;
 import com.design.decorator.DecoratorDesign;
 import com.design.decorator_apply.DecoratorDesignApply;
 import com.design.factory.FactoryDesign;
+import com.design.factory_apply.FactoryDesignApply;
 import com.design.mediator.MediatorDesign;
 import com.design.template.TemplateDesign;
 import com.design.template_apply.TemplateDesignApply;
@@ -25,6 +26,7 @@ public class DemoApplication {
 
 		/* 다른 예시로 테스트 */
 //		new TemplateDesignApply();
-		new DecoratorDesignApply();
+//		new DecoratorDesignApply();
+		new FactoryDesignApply();
 	}
 }
