@@ -1,6 +1,7 @@
 package com.design.demo;
 
 import com.design.abstractFactory.AbstractFactoryDesign;
+import com.design.abstractFactory_apply.AbstractFactoryDesignApply;
 import com.design.composite.CompositeDesign;
 import com.design.decorator.DecoratorDesign;
 import com.design.decorator_apply.DecoratorDesignApply;
@@ -27,6 +28,7 @@ public class DemoApplication {
 		/* 다른 예시로 테스트 */
 //		new TemplateDesignApply();
 //		new DecoratorDesignApply();
-		new FactoryDesignApply();
+//		new FactoryDesignApply();
+		new AbstractFactoryDesignApply();
 	}
 }
