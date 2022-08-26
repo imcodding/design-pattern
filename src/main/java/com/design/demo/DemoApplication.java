@@ -8,6 +8,7 @@ import com.design.decorator_apply.DecoratorDesignApply;
 import com.design.factory.FactoryDesign;
 import com.design.factory_apply.FactoryDesignApply;
 import com.design.mediator.MediatorDesign;
+import com.design.mediator_apply.MediatorDesignApply;
 import com.design.template.TemplateDesign;
 import com.design.template_apply.TemplateDesignApply;
 import org.springframework.boot.SpringApplication;
@@ -29,6 +30,7 @@ public class DemoApplication {
 //		new TemplateDesignApply();
 //		new DecoratorDesignApply();
 //		new FactoryDesignApply();
-		new AbstractFactoryDesignApply();
+//		new AbstractFactoryDesignApply();
+		new MediatorDesignApply();
 	}
 }
