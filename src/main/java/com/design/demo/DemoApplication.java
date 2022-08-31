@@ -3,6 +3,7 @@ package com.design.demo;
 import com.design.abstractFactory.AbstractFactoryDesign;
 import com.design.abstractFactory_apply.AbstractFactoryDesignApply;
 import com.design.composite.CompositeDesign;
+import com.design.composite_apply.CompositeDesignApply;
 import com.design.decorator.DecoratorDesign;
 import com.design.decorator_apply.DecoratorDesignApply;
 import com.design.factory.FactoryDesign;
@@ -31,6 +32,7 @@ public class DemoApplication {
 //		new DecoratorDesignApply();
 //		new FactoryDesignApply();
 //		new AbstractFactoryDesignApply();
-		new MediatorDesignApply();
+//		new MediatorDesignApply();
+		new CompositeDesignApply();
 	}
 }
