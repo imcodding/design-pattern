@@ -10,6 +10,7 @@ import com.design.factory.FactoryDesign;
 import com.design.factory_apply.FactoryDesignApply;
 import com.design.mediator.MediatorDesign;
 import com.design.mediator_apply.MediatorDesignApply;
+import com.design.state.StateDesign;
 import com.design.strategy.StrategyDesign;
 import com.design.template.TemplateDesign;
 import com.design.template_apply.TemplateDesignApply;
@@ -36,6 +37,7 @@ public class DemoApplication {
 //		new MediatorDesignApply();
 //		new CompositeDesignApply();
 
-		new StrategyDesign();
+//		new StrategyDesign();
+		new StateDesign();
 	}
 }
