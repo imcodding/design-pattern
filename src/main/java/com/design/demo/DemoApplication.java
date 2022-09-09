@@ -2,6 +2,7 @@ package com.design.demo;
 
 import com.design.abstractFactory.AbstractFactoryDesign;
 import com.design.abstractFactory_apply.AbstractFactoryDesignApply;
+import com.design.adapter.AdapterDesign;
 import com.design.command.CommandDesign;
 import com.design.composite.CompositeDesign;
 import com.design.composite_apply.CompositeDesignApply;
@@ -40,6 +41,7 @@ public class DemoApplication {
 
 //		new StrategyDesign();
 //		new StateDesign();
-		new CommandDesign();
+//		new CommandDesign();
+		new AdapterDesign();
 	}
 }
