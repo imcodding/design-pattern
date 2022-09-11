@@ -13,6 +13,7 @@ import com.design.factory_apply.FactoryDesignApply;
 import com.design.mediator.MediatorDesign;
 import com.design.mediator_apply.MediatorDesignApply;
 import com.design.proxy.ProxyDesign;
+import com.design.singleton.SingletonDesign;
 import com.design.state.StateDesign;
 import com.design.strategy.StrategyDesign;
 import com.design.template.TemplateDesign;
@@ -44,6 +45,7 @@ public class DemoApplication {
 //		new StateDesign();
 //		new CommandDesign();
 //		new AdapterDesign();
-		new ProxyDesign();
+//		new ProxyDesign();
+		new SingletonDesign();
 	}
 }
